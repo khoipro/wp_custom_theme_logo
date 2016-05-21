@@ -9,7 +9,7 @@ Flexible integrate custom logo feature (which is available from 4.5 version) in 
 ## Usage
 
 **Enable custom logo feature:**
-Place code from functions.php to your theme's functions.php
+Place code from `functions.php` to your theme's functions.php
 
 **To display a custom logo:**
 Copy code from header.php to where you want.
@@ -17,5 +17,5 @@ Copy code from header.php to where you want.
 <?php if ( function_exists( 'the_custom_logo' ) ) { the_custom_logo(); } ?>
 ```
 
-License: MIT
-Author: http://khoipro.com
+* License: MIT
+* Author: http://khoipro.com
